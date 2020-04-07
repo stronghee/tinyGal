@@ -1,0 +1,63 @@
+<!doctype html>
+
+
+<html>
+<style>
+  body {
+    margin:0;
+  }
+
+
+  a {
+    color:black;
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 64px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding:20px;
+  }
+  #grid ol {
+    border-right: 1px solid gray;
+    width: 100px;
+    margin:0;
+    padding-top:20px;
+    padding-left:32px;
+  }
+
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+
+  #article{
+    padding: 25px;
+  }
+</style>
+<head>
+<title>WEB1 - CSS</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a><br></li>
+      <li><a href="3.html">JavaScript</a><br></li>
+    </ol>
+    <div id="article">
+
+      <h2>CSS란 무엇인가?</h2>
+      CSS는 연속되는 스타일 시트(Cascading Style Sheets)의 줄임말이다. ‘Cascading’은 여러 가지 서로 다른 규칙이 존재할 때 어떤 스타일 ‘규칙’을 적용할지를 브라우저가 결정하는 방식을 일컫는다. 예를 들어 하나의 스타일 시트가 <p> 요소를 파란색으로 규정할 때 다른 시트가 빨간색이라고 규정하면 우리는 <p> 요소가 실제로 어떤 색을 가져야 할지 알 수 있는 일관된 방식이 필요하다.
+
+
+    </div>
+  </div>
+</body>
+
+</html>
